@@ -16,6 +16,7 @@ function List(props) {
       case "article":
         return <RaitingArticle {...item} key={shortid.generate()} />;
     }
+    return;
   });
 }
 
